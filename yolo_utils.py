@@ -5,9 +5,6 @@ import subprocess
 import time
 import os
 import pyttsx3 
-# from gtts import gTTS 
-# from pydub import AudioSegment
-# AudioSegment.converter = "C:/Users/jasonyip184/Desktop/yolo-object-detection/ffmpeg-20181202-72b047a-win64-static/bin/ffmpeg.exe"
 
 def convert(mytext):
     engine = pyttsx3.init() 
